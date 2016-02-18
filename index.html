@@ -10,12 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lina Lekova Software Enginner. Full Stack Web Developer. Database Enthusiast.">
     <meta name="author" content="Lina Lekova">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link href="favicon.ico" rel="shortcut icon">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/plugins/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.1.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/plugins/github-activity/dist/github-activity-0.1.1.min.css" rel="stylesheet">
 
     <!-- CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -70,14 +70,50 @@
                             <div class="item featured">
                                 <h3 class="title"><a href="http://linalekova.com/game_set_match/" target="_blank">GameSetMatch v2</a></h3>
                                 <p class="summary">Find fellow tennis player in your area and keep score of your games</p>
-                                <div class="featured-image">
-                                    <a href="http://linalekova.com/game_set_match/" target="_blank">
-                                    <img class="img-responsive project-image" src="assets/images/projects/gsm-bg.png" alt="gameSetMatch" />
-                                    </a>
-                                    <div class="ribbon">
-                                        <div class="text">Latest</div>
+
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <a href="http://linalekova.com/game_set_match/" target="_blank">
+                                                <img src="assets/images/projects/game_set_match_home.jpg" alt="Game Set Match Home">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://linalekova.com/game_set_match/" target="_blank">
+                                                <img src="assets/images/projects/game_set_match_dashboard.jpg" alt="Game Set Match Dashboard">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://linalekova.com/game_set_match/" target="_blank">
+                                                <img src="assets/images/projects/game_set_match_profile.jpg" alt="Game Set Match Profile">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a href="http://linalekova.com/game_set_match/" target="_blank">
+                                                <img src="assets/images/projects/game_set_match_find_players.jpg" alt="Game Set Match Find Players">
+                                            </a>
                                         </div>
                                     </div>
+
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
 
                                 <div class="desc text-left">
                                     <p>Game Set Match allows you to find a person with a similar proficiency level who is
@@ -237,6 +273,14 @@
                                 </div><!--//item-->
 
                                 <div class="item">
+                                    <h3 class="level-title">C#<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
                                     <h3 class="level-title">Ruby on Rails<span class="level-label">Pro</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="85%">
@@ -274,22 +318,6 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
 
-                <!-- <aside class="testimonials aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">
-                                    <p><i class="fa fa-quote-left"></i>Lina is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                                </blockquote>
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>
-                            </div>
-
-                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
-                        </div>
-                    </div>
-                </aside> -->
-
                 <aside class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
@@ -305,7 +333,7 @@
                                     jQuery, Node.js, AngularJS, Handlebars, PostgreSQL, MongoDB... and I loved it.</p>
                                 </h4>
 
-                            </div><!--//item-->
+                            </div>
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> MSc Software Technologies</h3>
                                 <h4 class="university">University Of Plovdiv <span class="year">(2006-2008)</span>
@@ -386,7 +414,7 @@
     <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
     <!-- github activity plugin -->
     <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
