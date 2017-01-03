@@ -440,6 +440,9 @@ iframe {
 .languages .item .level {
   color: #999999;
 }
+.languages .item .level-purple {
+  color: #7C5CAB;
+}
 .languages .item:last-child {
   margin-bottom: 0;
 }
@@ -560,4 +563,8 @@ iframe {
 
 .carousel-control.left {
   background-image: none;
+}
+.happy {
+  width: 90%;
+  height: 90%;
 }
