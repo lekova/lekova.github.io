@@ -12,6 +12,4 @@ jQuery(document).ready(function($) {
 
 	/* Bootstrap Tooltip for Skillset */
 	$('.level-label').tooltip();
-
-	GitHubActivity.feed({ username: 'lekova', selector: '#ghfeed', repository: 'game_set_match' });
 });
