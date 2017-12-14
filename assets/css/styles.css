@@ -571,3 +571,7 @@ iframe {
 .icon-image {
   margin-right: 10px;
 }
+.margin-top-bottom {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
